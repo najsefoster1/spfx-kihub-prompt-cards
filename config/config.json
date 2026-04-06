@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "ki-hub-prompt-cards-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/kiHubPromptCards/KiHubPromptCardsWebPart.js",
+          "manifest": "./src/webparts/kiHubPromptCards/KiHubPromptCardsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "KiHubPromptCardsWebPartStrings": "lib/webparts/kiHubPromptCards/loc/{locale}.js"
+  }
+}

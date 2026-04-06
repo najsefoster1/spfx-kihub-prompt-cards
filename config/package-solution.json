@@ -1,0 +1,42 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "kihub-prompt-cards-client-side-solution",
+    "id": "8f8666b2-9ab8-4e93-a1fd-b69c8f0eb111",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Najse Foster",
+      "websiteUrl": "https://txhistory.sharepoint.com",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.22.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "KIHub Prompt Cards web part"
+      },
+      "longDescription": {
+        "default": "Displays prompt cards from the Copilot Prompt Library with copy and Copilot launch actions."
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": [
+        "Productivity"
+      ]
+    },
+    "features": [
+      {
+        "title": "KIHub Prompt Cards Feature",
+        "description": "Deploys the KIHub Prompt Cards web part.",
+        "id": "6f3f3fd4-b980-4a8a-a7c3-a5161b20d111",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/kihub-prompt-cards.sppkg"
+  }
+}

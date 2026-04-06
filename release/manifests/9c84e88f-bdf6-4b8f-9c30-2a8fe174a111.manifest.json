@@ -1,0 +1,65 @@
+{
+  "id": "9c84e88f-bdf6-4b8f-9c30-2a8fe174a111",
+  "alias": "KIHubPromptCardsWebPart",
+  "componentType": "WebPart",
+  "version": "1.0.0",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart"
+  ],
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [
+    {
+      "groupId": "cf066440-0614-43d6-98ae-0b31cf14c7c3",
+      "group": {
+        "default": "Other"
+      },
+      "title": {
+        "default": "KIHub Prompt Cards"
+      },
+      "description": {
+        "default": "Displays prompt cards from the Copilot Prompt Library."
+      },
+      "officeFabricIconFontName": "BulletedListText",
+      "properties": {
+        "listName": "Copilot Prompt Library",
+        "copilotUrl": "https://m365.cloud.microsoft/chat",
+        "filterType": "None",
+        "filterValue": ""
+      }
+    }
+  ],
+  "loaderConfig": {
+    "internalModuleBaseUrls": [
+      "<!-- PATH TO CDN -->"
+    ],
+    "entryModuleId": "ki-hub-prompt-cards-web-part",
+    "scriptResources": {
+      "ki-hub-prompt-cards-web-part": {
+        "type": "path",
+        "path": "ki-hub-prompt-cards-web-part_c26f67ba3ce4ac7fdaa7.js"
+      },
+      "@microsoft/sp-core-library": {
+        "type": "component",
+        "id": "7263c7d0-1d6a-45ec-8d85-d4d1d234171b",
+        "version": "1.22.2"
+      },
+      "@microsoft/sp-http": {
+        "type": "component",
+        "id": "c07208f0-ea3b-4c1a-9965-ac1b825211a6",
+        "version": "1.22.2"
+      },
+      "@microsoft/sp-property-pane": {
+        "type": "component",
+        "id": "f9e737b7-f0df-4597-ba8c-3060f82380db",
+        "version": "1.22.2"
+      },
+      "@microsoft/sp-webpart-base": {
+        "type": "component",
+        "id": "974a7777-0990-4136-8fa6-95d80114c2e0",
+        "version": "1.22.2"
+      }
+    }
+  }
+}
